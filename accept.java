@@ -19,6 +19,10 @@ public class accept {
         driver.findElement(By.id("accept")).click();
         Thread.sleep(2000);
         driver.switchTo().alert().accept();
+        Thread.sleep(2000);
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
 
 	}
 
